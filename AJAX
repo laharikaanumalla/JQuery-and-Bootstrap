@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://www.smec.ac.in/"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $.get("demo_test.asp", function(data, status){
+      alert("Data: " + data + "\nStatus: " + status);
+    });
+  });
+});
+</script>
+</head>
+<body>
+
+<button>COLLEGE WEBSITE</button>
+
+</body>
+</html>
